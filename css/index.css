@@ -1,0 +1,21 @@
+@import url("variables.css");
+@import url("body.css");
+
+.container{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media (min-width:700px) {
+    .container{
+        background-color: var(--background-dark-blue);
+        color: var( --text-color-white);
+    }
+}
+
+@media (max-width:699px) {
+    .container{
+        background-color: var(--background-light-blue);
+        color: var(--text-color-black);
+    }
+}
